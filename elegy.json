@@ -1,6 +1,6 @@
 {
-    "name": "Moldable Documentation",
-    "namespace": "Javanile\\Moldable\\Docs",
+    "name": "Moldable",
+    "namespace": "Javanile\\MoldableDocs",
     "pages": {
         "index": "Pages\\Index",
         "about": "Pages\\About",

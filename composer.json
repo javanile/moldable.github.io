@@ -4,8 +4,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Javanile\\Moldable\\Docs\\": "src/",
-            "Moldable\\Docs45\\": "packages/elegy/src/",
+            "Javanile\\MoldableDocs\\": "src/",
             "Javanile\\Elegy\\": "packages/elegy/src/"
         }
     },
@@ -13,7 +12,7 @@
         "javanile/moldable": "^0.0.47"
     },
     "name": "moldable/moldable.github.io",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "repositories": [
         {
             "type": "git",
