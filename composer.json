@@ -12,7 +12,7 @@
         "javanile/moldable": "^0.0.47"
     },
     "name": "moldable/moldable.github.io",
-    "version": "0.0.11",
+    "version": "0.0.12",
     "repositories": [
         {
             "type": "git",
