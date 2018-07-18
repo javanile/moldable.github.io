@@ -1,7 +1,7 @@
 
 <div class="sidebar sidebar-left">
-    <h3 class="sidebar-category active">Getting Started</h3>
 
+    <h3 class="sidebar-category active">Getting Started</h3>
     <ul class="sidebar-links">
         <li><a class="active" href="https://mustard-ui.com/docs/installation/">Installation</a></li>
         <li><a class="" href="https://mustard-ui.com/docs/overview/">Overview</a></li>
@@ -9,8 +9,6 @@
     </ul>
 
     <h3 class="sidebar-category ">Components</h3>
-
-
     <ul class="sidebar-links">
         <li><a class="" href="https://mustard-ui.com/docs/alerts/">Alerts</a></li>
         <li><a class="" href="https://mustard-ui.com/docs/breadcrumbs/">Breadcrumbs</a></li>
@@ -32,8 +30,6 @@
     </ul>
 
     <h3 class="sidebar-category ">HTML Elements</h3>
-
-
     <ul class="sidebar-links">
         <li><a class="" href="https://mustard-ui.com/docs/blockquotes/">Blockquotes</a></li>
         <li><a class="" href="https://mustard-ui.com/docs/buttons/">Buttons</a></li>
@@ -46,8 +42,6 @@
     </ul>
 
     <h3 class="sidebar-category ">Utility Classes</h3>
-
-
     <ul class="sidebar-links">
         <li><a class="" href="https://mustard-ui.com/docs/alignment/">Alignment</a></li>
         <li><a class="" href="https://mustard-ui.com/docs/containers/">Containers</a></li>
@@ -57,13 +51,10 @@
     </ul>
 
     <h3 class="sidebar-category ">Mixins</h3>
-
-
     <ul class="sidebar-links">
         <li><a class="" href="https://mustard-ui.com/docs/breakpoint-mixin/">Breakpoint Mixin</a></li>
         <li><a class="" href="https://mustard-ui.com/docs/centering-mixins/">Centering Mixins</a></li>
         <li><a class="" href="https://mustard-ui.com/docs/clearfix-mixin/">Clearfix Mixin</a></li>
         <li><a class="" href="https://mustard-ui.com/docs/triangle-mixin/">Triangle Mixin</a></li>
     </ul>
-
 </div>
