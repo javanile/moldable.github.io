@@ -1,0 +1,6 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "webpack-mix": "^2.0.2"
+  }
+}

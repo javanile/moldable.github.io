@@ -3,13 +3,13 @@ version: '2'
 services:
 
   php:
-    image: javanile/lamp:5
+    image: javanile/lamp:7.0
     env_file:
       - development.env
     volumes:
       - ./:/var/www/html:rw
     ports:
-      - "8080:80"
+      - "38080:80"
     links:
       - mysql
     restart: "no"
@@ -25,7 +25,7 @@ services:
     env_file:
       - development.env
     ports:
-      - "8081:8080"
+      - "38081:8080"
     links:
       - mysql
     restart: "no"

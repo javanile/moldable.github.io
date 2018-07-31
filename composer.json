@@ -1,7 +1,5 @@
 {
-    "require-dev": {
-        "javanile/producer": "^0.3.5"
-    },
+    "require-dev": {},
     "autoload": {
         "psr-4": {
             "Javanile\\MoldableDocs\\": "src/",
@@ -9,10 +7,11 @@
         }
     },
     "require": {
-        "javanile/moldable": "^0.0.47"
+        "javanile/moldable": "^0.0.47",
+        "erusev/parsedown": "^1.7"
     },
     "name": "moldable/moldable.github.io",
-    "version": "0.0.12",
+    "version": "0.0.13",
     "repositories": [
         {
             "type": "git",
