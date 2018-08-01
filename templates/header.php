@@ -6,19 +6,6 @@
         <meta name="author" content="CJ Patoilo">
         <meta name="description" content="Milligram provides a minimal setup of styles for a fast and clean starting point. Specially designed for better performance and higher productivity with fewer properties to reset resulting in cleaner code.">
         <title>Milligram | A minimalist CSS framework.</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/solid.css">
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
-
-
-
-
-
-
-
-
-                </div>
-            </div>
-
-        </main>

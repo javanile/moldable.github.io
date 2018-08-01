@@ -11,7 +11,7 @@
         "erusev/parsedown": "^1.7"
     },
     "name": "moldable/moldable.github.io",
-    "version": "0.0.14",
+    "version": "0.0.15",
     "repositories": [
         {
             "type": "git",
