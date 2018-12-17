@@ -4,10 +4,17 @@
 $fa-font-path: '../fonts/fontawesome';
 @import 'node_modules/@fortawesome/fontawesome-free/scss/solid';
 @import 'node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
-@import 'node_modules/normalize.css/normalize';
+@import 'node_modules/node-normalize-scss/normalize';
 @import 'node_modules/prismjs/themes/prism';
 
-@import 'node_modules/mustard-ui/src/scss/vars/colors';
+/*
+@import 'node_modules/handbook-ui/src/scss/vars';
+@import 'node_modules/handbook-ui/src/scss/elements';
+$nav-bg-color: #000;
+@import 'node_modules/handbook-ui/src/scss/components';
+*/
 
-$nav-bg-color: $color-gray-300;
-@import 'node_modules/mustard-ui/src/scss/mustard-ui';
+@import 'node_modules/mustard-ui/src/scss/vars/colors.scss';
+
+$nav-bg-color: $color-deep-orange-500;
+@import 'node_modules/mustard-ui/src/scss/mustard-ui.scss';

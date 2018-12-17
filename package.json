@@ -4,10 +4,11 @@
     "build": "cross-env NODE_ENV=production webpack --config node_modules/webpack-mix/setup/webpack.config.js --progress --hide-modules"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.2.0",
+    "@fortawesome/fontawesome-free": "^5.6.1",
     "cross-env": "^5.2.0",
-    "mustard-ui": "0.0.7",
-    "normalize.css": "^8.0.0",
+    "mustard-ui": "0.0.8",
+    "node-normalize-scss": "^8.0.0",
+    "normalize.css": "^8.0.1",
     "prismjs": "^1.15.0",
     "webpack-mix": "^2.0.2"
   }

@@ -5321,6 +5321,12 @@ pre[class*="language-"] {
   cursor: help;
 }
 
+/*
+@import 'node_modules/handbook-ui/src/scss/vars';
+@import 'node_modules/handbook-ui/src/scss/elements';
+$nav-bg-color: #000;
+@import 'node_modules/handbook-ui/src/scss/components';
+*/
 /*!
 Mustard UI v0.0.5
 MIT License
@@ -7002,7 +7008,7 @@ nav,
   padding: 0 15px;
   height: 60px;
   width: 100%;
-  background: #e0e0e0;
+  background: #ff5722;
 }
 
 nav a,
