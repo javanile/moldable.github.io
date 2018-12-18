@@ -1,6 +1,6 @@
 <?php
 
-namespace Javanile\MoldableDocs\Pages;
+namespace Javanile\MoldableGithubIo\Pages;
 
 use Javanile\Elegy\Page;
 use Javanile\MoldableDocs\Samples\People;

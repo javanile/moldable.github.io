@@ -1,15 +1,14 @@
 <?php
 
-namespace Javanile\MoldableDocs\Pages;
+namespace Javanile\MoldableGithubIo\Pages;
 
 use Javanile\Elegy\Page;
-use Javanile\MoldableDocs\Samples\People;
 
 class Page1 extends Page
 {
     public function content()
     {
-        $this->renderClass('Javanile\\MoldableDocs\\Samples\\People');
+        //$this->renderClass('Javanile\\MoldableDocs\\Samples\\People');
 
         // @block : start 'insert'
         // Insert one record
@@ -18,7 +17,7 @@ class Page1 extends Page
         //]);
         // @block : end
 
-        $this->renderFileBlock(__FILE__, 'insert');
+        //$this->renderFileBlock(__FILE__, 'insert');
 
         //People::desc();
         //People::dump();

@@ -1,6 +1,6 @@
 {
-    "name": "Moldable",
-    "namespace": "Javanile\\MoldableDocs",
+    "name": "javanile/moldable-gitbub-io",
+    "namespace": "Javanile\\MoldableGithubIo",
     "pages": {
         "index": "Pages\\Index",
         "About": "Pages\\About",

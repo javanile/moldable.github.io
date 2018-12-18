@@ -6,4 +6,4 @@ use Javanile\Elegy\Server;
 
 $server = new Server(__DIR__.'/../elegy.json');
 
-$server->run();
+echo $server->run();

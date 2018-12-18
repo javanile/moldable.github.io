@@ -3,7 +3,8 @@
  *
  */
 
-$currentRootPage = $this->getContext()->getCurrentRootPage();
+$context = $this->getContext();
+$currentRootPage = $context->getCurrentRootPage();
 ?>
 
 <div class="sidebar sidebar-left">
@@ -11,7 +12,7 @@ $currentRootPage = $this->getContext()->getCurrentRootPage();
     <?php if (!$currentRootPage->hasSubpages()) { ?>
         <h3 class="sidebar-category active">Menu</h3>
         <ul class="sidebar-links">
-            <?php foreach ($this->getContext()->listRootPages() as $page) { ?>
+            <?php foreach ($context->listRootPages() as $page) { ?>
                 <li>
                     <a <?=$page->isCurrent()?'class="active"':''?> href="<?=$page->getUrl()?>">
                         <?=$page->getMenuLabel()?>
@@ -35,7 +36,7 @@ $currentRootPage = $this->getContext()->getCurrentRootPage();
     <?php } ?>
 
     <?php if ($currentRootPage->hasNonterminalSubpages()) { ?>
-        <?php foreach ($this->getContext()->listNonterminalSubpages() as $page) { ?>
+        <?php foreach ($currentRootPage->listNonterminalSubpages() as $page) { ?>
             <h3 class="sidebar-category active"><?=$page->getLabel()?></h3>
             <ul class="sidebar-links">
                 <?php foreach ($page->listSubpages() as $subpage) { ?>

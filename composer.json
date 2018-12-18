@@ -1,8 +1,9 @@
 {
-    "require-dev": {},
+    "name": "javanile/moldable.github.io",
+    "version": "0.0.15",
     "autoload": {
         "psr-4": {
-            "Javanile\\MoldableDocs\\": "src/",
+            "Javanile\\MoldableGithubIo\\": "src/",
             "Javanile\\Elegy\\": "packages/elegy/src/"
         }
     },
@@ -10,12 +11,5 @@
         "javanile/moldable": "^0.0.47",
         "erusev/parsedown": "^1.7"
     },
-    "name": "moldable/moldable.github.io",
-    "version": "0.0.15",
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/moldable/moldable.github.io"
-        }
-    ]
+    "require-dev": {}
 }
