@@ -14,9 +14,9 @@ class Index extends Page
 
         // <code name="insert" lang="php">
         // Insert one record
-        People::insert([
-            'name' => 'ciao'
-        ]);
+        //People::insert([
+        //    'name' => 'ciao'
+        //]);
         // </code>
 
         $this->renderCodeBlock(__FILE__, 'insert');

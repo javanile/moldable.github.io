@@ -12,11 +12,7 @@ include __DIR__.'/nav.php';
         <div class="row row-reverse">
             <div class="col col-lg-9 mt0 pt0">
                 <section class="mt0 pt0">
-
-
                     <?php $this->content() ?>
-
-
                 </section>
             </div>
             <div class="col col-lg-3 display-lg-up">

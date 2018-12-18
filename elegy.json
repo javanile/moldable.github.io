@@ -3,10 +3,13 @@
     "namespace": "Javanile\\MoldableDocs",
     "pages": {
         "index": "Pages\\Index",
-        "about": "Pages\\About",
-        "docs": {
+        "About": "Pages\\About",
+        "Docs": {
             "page1": "Pages\\Page1",
-            "page2": "Pages\\Page2"
+            "page2": "Pages\\Page2",
+            "Help": {
+                "adsd": "asd"
+            }
         }
     },
     "build": {

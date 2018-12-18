@@ -1,20 +1,11 @@
 
-
 //@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 $fa-font-path: '../fonts/fontawesome';
-@import 'node_modules/@fortawesome/fontawesome-free/scss/solid';
-@import 'node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
-@import 'node_modules/node-normalize-scss/normalize';
-@import 'node_modules/prismjs/themes/prism';
+@import "node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "node_modules/node-normalize-scss/normalize";
+@import "node_modules/prismjs/themes/prism";
 
-/*
-@import 'node_modules/handbook-ui/src/scss/vars';
-@import 'node_modules/handbook-ui/src/scss/elements';
-$nav-bg-color: #000;
-@import 'node_modules/handbook-ui/src/scss/components';
-*/
-
-@import 'node_modules/mustard-ui/src/scss/vars/colors.scss';
-
-$nav-bg-color: $color-deep-orange-500;
-@import 'node_modules/mustard-ui/src/scss/mustard-ui.scss';
+@import "node_modules/mustard-ui/src/scss/vars/colors.scss";
+$nav-bg-color: $color-green-400;
+@import "node_modules/mustard-ui/src/scss/mustard-ui.scss";
