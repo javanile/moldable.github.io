@@ -1,13 +1,23 @@
 {
-    "name": "javanile/moldable-gitbub-io",
+    "name": "Moldable",
     "namespace": "Javanile\\MoldableGithubIo",
     "pages": {
-        "index": "Pages\\Index",
-        "About": "Pages\\About",
-        "Docs": {
+        "index": {
+            "index": "Pages\\Index",
+            "index2": "Pages\\Index"
+        },
+        "docs": {
             "page1": "Pages\\Page1",
             "page2": "Pages\\Page2",
-            "Help": {
+            "help": {
+                "adsd": "asd"
+            }
+        },
+        "about": "Pages\\About",
+        "docs2": {
+            "page1": "Pages\\Page1",
+            "page2": "Pages\\Page2",
+            "help": {
                 "adsd": "asd"
             }
         }

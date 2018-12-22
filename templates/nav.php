@@ -1,10 +1,18 @@
+<?php
+/**
+ *
+ */
+
+$context = $this->getContext();
+?>
+
 <nav>
     <div class="nav-container">
         <div class="nav-logo">
-            <a href="/"><?=$this->getContext()->getConfigName()?></a>
+            <a href="/"><?=$context->getName()?></a>
         </div>
         <ul class="nav-links">
-            <?php foreach ($this->getContext()->listRootPages() as $page) { ?>
+            <?php foreach ($context->listRootPages() as $page) { ?>
                 <li>
                     <a <?=$page->isCurrent()?'class="active"':''?> href="<?=$page->getUrl()?>">
                         <?=$page->getMenuLabel()?>

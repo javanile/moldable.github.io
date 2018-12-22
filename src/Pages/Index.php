@@ -9,8 +9,8 @@ class Index extends Page
 {
     public function content()
     {
-        $this->renderMarkdown('docs/insert.md');
-        $this->renderClass('Javanile\\MoldableDocs\\Samples\\People');
+        //$this->renderMarkdown('docs/insert.md');
+        //$this->renderClass('Javanile\\MoldableDocs\\Samples\\People');
 
         // <code name="insert" lang="php">
         // Insert one record
@@ -19,7 +19,7 @@ class Index extends Page
         //]);
         // </code>
 
-        $this->renderCodeBlock(__FILE__, 'insert');
+        //$this->renderCodeBlock(__FILE__, 'insert');
 
         //People::desc();
         //People::dump();
