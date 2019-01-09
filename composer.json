@@ -1,6 +1,6 @@
 {
     "name": "javanile/moldable.github.io",
-    "version": "0.0.15",
+    "version": "0.0.16",
     "autoload": {
         "psr-4": {
             "Javanile\\MoldableGithubIo\\": "src/",

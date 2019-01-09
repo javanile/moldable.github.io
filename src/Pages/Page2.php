@@ -9,7 +9,7 @@ class Page2 extends Page
 {
     public function content()
     {
-        $this->renderClass('Javanile\\MoldableDocs\\Samples\\People');
+        //$this->printClass('Javanile\\MoldableDocs\\Samples\\People');
 
         // @block : start 'insert'
         // Insert one record
@@ -18,7 +18,7 @@ class Page2 extends Page
         //]);
         // @block : end
 
-        $this->renderFileBlock(__FILE__, 'insert');
+        //$this->printFileBlock(__FILE__, 'insert');
 
         //People::desc();
         //People::dump();

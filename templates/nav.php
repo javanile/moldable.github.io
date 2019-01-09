@@ -14,7 +14,8 @@ $context = $this->getContext();
         <ul class="nav-links">
             <?php foreach ($context->listRootPages() as $page) { ?>
                 <li>
-                    <a <?=$page->isCurrent()?'class="active"':''?> href="<?=$page->getUrl()?>">
+                    <a <?=$page->isCurrent()||$page->isParentOfCurrent()?'class="active"':''?>
+                        href="<?=$page->getUrl()?>">
                         <?=$page->getMenuLabel()?>
                     </a>
                 </li>

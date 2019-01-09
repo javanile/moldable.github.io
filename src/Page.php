@@ -13,13 +13,15 @@
 
 namespace Moldable\MoldableGithubIo;
 
-class MoldableGithubIo
+use Javanile\Elegy\Page as ElegyPage;
+
+class Page extends ElegyPage
 {
     /**
      * Constructor.
      */
-    public function __construct()
+    public function __construct(Render $render)
     {
-
+        $this->render = $render
     }
 }

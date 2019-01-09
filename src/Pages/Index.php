@@ -7,8 +7,15 @@ use Javanile\MoldableDocs\Samples\People;
 
 class Index extends Page
 {
+    public function __construct($db)
+    {
+        $this->db = $db;
+    }
+
     public function content()
     {
+        echo "<h1>Index1</h1>";
+
         //$this->renderMarkdown('docs/insert.md');
         //$this->renderClass('Javanile\\MoldableDocs\\Samples\\People');
 

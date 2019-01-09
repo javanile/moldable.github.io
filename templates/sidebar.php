@@ -5,9 +5,6 @@
 
 $context = $this->getContext();
 $currentRootPage = $context->getCurrentRootPage();
-
-var_dump($currentRootPage->slug);
-
 ?>
 
 <div class="sidebar sidebar-left">

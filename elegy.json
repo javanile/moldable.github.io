@@ -1,28 +1,37 @@
 {
-    "name": "Moldable",
-    "namespace": "Javanile\\MoldableGithubIo",
+    "title": "Moldable",
+    "build": {
+        "path": "docs/"
+    },
+    "files": {
+        "path": "src/"
+    },
+    "class": {
+        "namespace": "Javanile\\MoldableGithubIo",
+    },
     "pages": {
-        "index": {
-            "index": "Pages\\Index",
-            "index2": "Pages\\Index"
-        },
+        "index": "Pages\\Index",
         "docs": {
             "page1": "Pages\\Page1",
             "page2": "Pages\\Page2",
             "help": {
-                "adsd": "asd"
+                "adsd": ""
             }
         },
         "about": "Pages\\About",
         "docs2": {
-            "page1": "Pages\\Page1",
-            "page2": "Pages\\Page2",
-            "help": {
+            "page3": "Pages\\Page1",
+            "page4": "Pages\\Page2",
+            "help3": {
                 "adsd": "asd"
             }
         }
     },
-    "build": {
-        "path": "."
+    "binds": {
+        "Javanile\\Moldable\\Database as Database": {
+            "dbname": "$DB_NAME"
+        }
+        "Page": ["Render"]
+        "Pages\\Page1": ["Render", "Database"]
     }
 }
